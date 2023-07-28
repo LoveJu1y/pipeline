@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Jul 28 13:13:08 2023
+# Process ID: 82532
+# Current directory: D:/2/sl/single/single.runs/impl_1
+# Command line: vivado.exe -log pipecpu.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pipecpu.tcl -notrace
+# Log file: D:/2/sl/single/single.runs/impl_1/pipecpu.vdi
+# Journal file: D:/2/sl/single/single.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pipecpu.tcl -notrace

@@ -1,0 +1,3 @@
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance test_cpu.cpu1.clk_wiz.inst.plle2_adv_inst are not same.

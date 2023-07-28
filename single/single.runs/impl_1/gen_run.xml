@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1690522613">
+  <File Type="ROUTE-PWR" Name="pipecpu_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="pipecpu.tcl"/>
+  <File Type="PWROPT-DCP" Name="pipecpu_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="pipecpu_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="pipecpu_reports.tcl"/>
+  <File Type="BG-DRC" Name="pipecpu.drc"/>
+  <File Type="OPT-HWDEF" Name="pipecpu.hwdef"/>
+  <File Type="OPT-DCP" Name="pipecpu_opt.dcp"/>
+  <File Type="OPT-DRC" Name="pipecpu_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="pipecpu_placed.dcp"/>
+  <File Type="PLACE-IO" Name="pipecpu_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="pipecpu_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="pipecpu_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="pipecpu_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="pipecpu_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="pipecpu_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="pipecpu_physopt.dcp"/>
+  <File Type="BG-BIT" Name="pipecpu.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="pipecpu_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="pipecpu_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="pipecpu_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="pipecpu_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="pipecpu_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="pipecpu_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="pipecpu.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="pipecpu_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="pipecpu.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="pipecpu_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="pipecpu.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pipecpu_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="pipecpu.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="pipecpu_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="pipecpu_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="pipecpu_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="pipecpu_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="pipecpu_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="pipecpu_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="pipecpu_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="pipecpu.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="pipecpu_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="pipecpu_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="pipecpu.nky"/>
+  <File Type="BITSTR-BMM" Name="pipecpu_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="pipecpu.mmi"/>
+  <File Type="BITSTR-LTX" Name="pipecpu.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="pipecpu.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/ALU.v"/>
+        <Attr Name="ImportTime" Val="1683783532"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/ALUControl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/ALUControl.v"/>
+        <Attr Name="ImportTime" Val="1683784204"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/Control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/Control.v"/>
+        <Attr Name="ImportTime" Val="1683782160"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/DataMemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/DataMemory.v"/>
+        <Attr Name="ImportTime" Val="1683783560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EX_FORWARD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EX_MEM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HAZARD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ID_EX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ID_FORWARD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IF_ID.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/InstructionMemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/InstructionMemory.v"/>
+        <Attr Name="ImportTime" Val="1683782796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MEM_WB.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/RegisterFile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/RegisterFile.v"/>
+        <Attr Name="ImportTime" Val="1683782702"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Zero.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pipecpu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/Device.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/Device.v"/>
+        <Attr Name="ImportTime" Val="1683782782"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/single-cycle/CPU.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../3/已交作业4/数逻/single-cycle/CPU.v"/>
+        <Attr Name="ImportTime" Val="1683791936"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pipecpu"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cpu.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

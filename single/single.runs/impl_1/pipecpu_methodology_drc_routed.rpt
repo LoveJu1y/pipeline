@@ -1,0 +1,58 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Fri Jul 28 13:43:46 2023
+| Host         : LAPTOP-3EOHKJBO running 64-bit major release  (build 9200)
+| Command      : report_methodology -file pipecpu_methodology_drc_routed.rpt -pb pipecpu_methodology_drc_routed.pb -rpx pipecpu_methodology_drc_routed.rpx
+| Design       : pipecpu
+| Device       : xc7a35tcsg324-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 4
++----------+----------+--------------------------------------------------------+------------+
+| Rule     | Severity | Description                                            | Violations |
++----------+----------+--------------------------------------------------------+------------+
+| SYNTH-10 | Warning  | Wide multiplier                                        | 3          |
+| XDCC-7   | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at ALU1/out0 of size 16x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at ALU1/out0__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at ALU1/out0__1 of size 18x16, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -name CLK -waveform {0.000 5.000} [get_ports clk1] (Source: D:/2/sl/single/single.srcs/constrs_1/new/cpu.xdc (Line: 2))
+Previous: create_clock -period 10.000 [get_ports clk1] (Source: d:/2/sl/single/single.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+

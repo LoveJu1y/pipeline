@@ -1,0 +1,36 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/ALUControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/EX_FORWARD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_FORWARD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/HAZARD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HAZARD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/ID_FORWARD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_FORWARD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/Zero.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Zero
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/new/pipecpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipecpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/test_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_cpu

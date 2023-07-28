@@ -1,0 +1,22 @@
+0.6
+2017.3
+Oct  4 2017
+20:11:37
+D:/2/sl/single/single.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/ALU.v,1690222880,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/ALUControl.v,,ALU,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/ALUControl.v,1690222857,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/Control.v,,ALUControl,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/Control.v,1690533075,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/DataMemory.v,,Control,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/DataMemory.v,1690441358,verilog,,D:/2/sl/single/single.srcs/sources_1/new/EX_FORWARD.v,,DataMemory,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/InstructionMemory.v,1690518578,verilog,,D:/2/sl/single/single.srcs/sources_1/new/MEM_WB.v,,InstructionMemory,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/RegisterFile.v,1690430182,verilog,,D:/2/sl/single/single.srcs/sources_1/new/Zero.v,,RegisterFile,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/test_cpu.v,1690531650,verilog,,,,test_cpu,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1690444683,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/ALU.v,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz;glbl,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/EX_FORWARD.v,1690375497,verilog,,D:/2/sl/single/single.srcs/sources_1/new/EX_MEM.v,,EX_FORWARD,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/EX_MEM.v,1690468228,verilog,,D:/2/sl/single/single.srcs/sources_1/new/HAZARD.v,,EX_MEM,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/HAZARD.v,1690520871,verilog,,D:/2/sl/single/single.srcs/sources_1/new/ID_EX.v,,HAZARD,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/ID_EX.v,1690468224,verilog,,D:/2/sl/single/single.srcs/sources_1/new/ID_FORWARD.v,,ID_EX,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/ID_FORWARD.v,1690187872,verilog,,D:/2/sl/single/single.srcs/sources_1/new/IF_ID.v,,ID_FORWARD,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/IF_ID.v,1690396731,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/InstructionMemory.v,,IF_ID,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/MEM_WB.v,1690366714,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/RegisterFile.v,,MEM_WB,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/Zero.v,1690522095,verilog,,D:/2/sl/single/single.srcs/sources_1/new/pipecpu.v,,Zero,,,,,,,,
+D:/2/sl/single/single.srcs/sources_1/new/pipecpu.v,1690522597,verilog,,D:/2/sl/single/single.srcs/sources_1/imports/single-cycle/test_cpu.v,,pipecpu,,,,,,,,

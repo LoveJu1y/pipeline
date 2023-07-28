@@ -1,0 +1,42 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
+| Date         : Fri Jul 28 13:42:07 2023
+| Host         : LAPTOP-3EOHKJBO running 64-bit major release  (build 9200)
+| Command      : report_control_sets -file pipecpu_control_sets_placed.rpt
+| Design       : pipecpu
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+
+1. Summary
+----------
+
++-------------------------------+-------+
+|             Status            | Count |
++-------------------------------+-------+
+| Number of unique control sets |  1061 |
++-------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             740 |          130 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             109 |           24 |
+| Yes          | No                    | Yes                    |           34011 |         7992 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+

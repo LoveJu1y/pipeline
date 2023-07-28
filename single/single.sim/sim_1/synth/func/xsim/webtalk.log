@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Jul 27 14:40:03 2023
+# Process ID: 60656
+# Current directory: D:/2/sl/single/single.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source D:/2/sl/single/single.sim/sim_1/synth/func/xsim/xsim.dir/test_cpu_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/2/sl/single/single.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: D:/2/sl/single/single.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/2/sl/single/single.sim/sim_1/synth/func/xsim/xsim.dir/test_cpu_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 27 14:40:05 2023...

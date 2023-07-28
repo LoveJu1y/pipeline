@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Jul 28 16:58:04 2023
+# Process ID: 11656
+# Current directory: D:/2/sl/single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11288 D:\2\sl\single\single.xpr
+# Log file: D:/2/sl/single/vivado.log
+# Journal file: D:/2/sl/single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/2/sl/single/single.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/1/vavido/Vivado/2017.3/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 28 16:58:22 2023...

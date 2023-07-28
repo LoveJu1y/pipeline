@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Jul 28 16:58:25 2023
+# Process ID: 8292
+# Current directory: D:/2/sl/single
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15188 D:\2\sl\single\single.xpr
+# Log file: D:/2/sl/single/vivado.log
+# Journal file: D:/2/sl/single\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/2/sl/single/single.xpr
+update_compile_order -fileset sources_1
